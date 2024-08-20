@@ -126,4 +126,52 @@
   .tns-outer button {
     @apply hidden;
   }
+
+
+  .menu__details {
+    @apply hidden lg:w-[40rem];
+  }
+  .menu__details--wrap {
+    @apply lg:justify-items-center;
+  }
+  .menu__card {
+    @apply flex flex-col justify-center text-center gap-3 hover:border border-white rounded-xl px-1 py-3 lg:max-w-[10rem] lg:py-8 lg:px-4;
+  }
+  
+  .menu__card h4{
+    @apply font-bold;
+  }
+  .menu__card ul{
+    @apply flex justify-center text-secondary;
+  }
+  .menu__card img{
+    @apply mb-2;
+  }
+  .menu__tab h5:active {
+    @apply text-primary;
+  }
+  .menu__details.active {
+    @apply block;
+  }
+
+  .more__text p{
+    @apply leading-[2rem];
+  }
+  .more__text h3{
+    @apply pl-1 pb-2 font-semibold lg:pl-[0.6rem];
+  }
+  .contact__wrapper input {
+    @apply p-[0.8rem] rounded-xl;
+  }
+  .contact__top input {
+    @apply w-[12.5rem] lg:w-[20rem];
+  }
+  .contact__middle input {
+    @apply w-[26.5rem] lg:w-[41rem];
+  }
+  .contact__bottom textarea {
+    @apply rounded-xl p-[0.8rem] w-[26.5rem] lg:w-[41rem] lg:h-[10rem];
+  }
+ 
+
 }

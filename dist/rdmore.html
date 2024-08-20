@@ -49,62 +49,58 @@
       </div>
     </section>
 
-
-
-    <!-- MAPA -->
-    <section class="map">
-        <div class="map__container">
-            <div class="contact__map flex justify-center lg:flex lg:justify-center">
-          <iframe
-            class="pt-40 lg:w-[70rem]"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3870.3770100135243!2d121.346049!3d14.0549008!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd5cd2d6006569%3A0x9075b8a72b9d5fb0!2sFrontline%20Business%20Solutions%2C%20Inc.!5e0!3m2!1sen!2sph!4v1724131303083!5m2!1sen!2sph"
-            width="455" 
-            height="800"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+    <!-- BODY -->
+    <section class="more">
+      <div class="container">
+        <div class="more__wrapper pt-40 flex flex-col items-center ">
+          <div class="more__image">
+            <img class="rounded-xl min-h-[30rem] object-cover lg:max-w-[55rem]" src="../IMG/Prosciutto-singlepage.jpeg" alt="" />
+          </div>
+          <div class="more__text bg-secondary my-8 p-4 flex flex-col gap-[8rem] mx-7 lg:grid lg:grid-cols-[1fr_2fr] lg:w-[40rem] lg:gap-[4rem]">
+            <div class="more__serving">
+              <h3>Serving</h3>
+              <p>• Prep: 15 mins</p>
+              <p>• Cook: 10 mins</p>
+              <p>• Total: 25 mins</p>
+              <p>• Servings: 2 servings</p>
+              <p>• Yield: 1 pizza</p>
+            </div>
+            <div class="more__ing leading-10">
+              <h3>Ingredients</h3>
+              <p>• 1 tablespoon tomato paste</p>
+              <p>• 1 tablespoon water</p>
+              <p>• Salt, to taste</p>
+              <p>• 2 tablespoons all-purpose flour</p>
+              <p>• 1 (175 grams) ball store-bought or homemade pizza dough</p>
+              <p>• 3 ounces burrata cheese, cut into 1-inch pieces</p>
+              <p>• 4 thin slices proscuitto, torn in half lengthwise</p>
+              <p>• 1/2 cup lightly packed argula leaves</p>
+              <p>• Extra-virgin olive oil, for drizzling</p>
+              <p>• 1/4 cup shvaed Parmesan cheese</p>
+            </div>
+          </div>
         </div>
-        </div>
+      </div>
     </section>
 
-    <!-- CONTENTS -->
-    <section class="contact bg-secondary">
+    <!-- CTA -->
+    <section class="cta bg-primary text-white py-10 lg:pb-0">
       <div class="container">
-        <div class="contact__wrapper h-[38rem] mt-10 flex flex-col gap-5 justify-center items-center">
-          <h1 class="font-bold pb-[1.7rem] ">GET IN TOUCH</h1>
-          <div class="contact__top flex gap-5 justify-center">
-            <input
-              type="text"
-              id="fname"
-              placeholder="First Name"
-              name="fname"
-            />
-            <input
-              type="text"
-              id="lname"
-              placeholder="Last Name"
-              name="lname"
-            />
-          </div>
-
-          <div class="contact__middle">
-            <input
-              type="text"
-              id="lname"
-              placeholder="Email Address"
-              name="lname"
-            />
-          </div>
-          <div class="contact__middle">
-            <input type="text" id="lname" placeholder="Subject" name="lname" />
-          </div>
-          <div class="contact__bottom">
-            <textarea placeholder="Your Message"></textarea>
-          </div>
-          <div class="contact__button">
-            <a href="" class="btn bg-primaryy">Submit Form</a>
+        <div
+          class="cta__wrapper flex flex-col items-center justify-center text-center lg:flex-row"
+        >
+          <img class="hidden lg:block lg:w-96" src="../IMG/chef.png" alt="" />
+          <div class="cta__details">
+            <h3 class="font-bold">LET'S CONNECT</h3>
+            <p class="mb-5">and get a 10% off bill offers and invites</p>
+            <div class="cta__input bg-white p-3">
+              <input
+                class="px-3 py-2 focus:text-black focus:outline-none"
+                type="text"
+                placeholder="YOUR EMAIL ADDRESS"
+              />
+              <a href="" class="btn bg-scdryy">SUBSCRIBE</a>
+            </div>
           </div>
         </div>
       </div>
